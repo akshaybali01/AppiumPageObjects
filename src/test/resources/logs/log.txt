@@ -1,0 +1,896 @@
+2022-06-17 22:36:10:575 [Appium] Welcome to Appium v1.22.3
+2022-06-17 22:36:10:580 [Appium] Non-default server args:
+2022-06-17 22:36:10:582 [Appium]   logFile: C:\MYTestProject\Appium\PageObjectModelFW\src\test\resources\logs\log.txt
+2022-06-17 22:36:10:584 [Appium]   localTimezone: true
+2022-06-17 22:36:11:324 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2022-06-17 22:36:11:775 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:11:777 [HTTP] {}
+2022-06-17 22:36:11:885 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:11:887 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:11:889 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:11:890 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:11:891 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:11:892 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:11:893 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:11:893 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:11:894 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:11:894 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:11:895 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:11:895 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:11:896 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:11:897 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:11:897 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:11:898 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:11:898 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:12:089 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 184 ms - 3114
+2022-06-17 22:36:12:089 [HTTP] 
+2022-06-17 22:36:12:112 [HTTP] --> GET /wd/hub/status
+2022-06-17 22:36:12:113 [HTTP] {}
+2022-06-17 22:36:12:114 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-06-17 22:36:12:117 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-06-17 22:36:12:124 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2022-06-17 22:36:12:124 [HTTP] 
+2022-06-17 22:36:15:035 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:15:035 [HTTP] {}
+2022-06-17 22:36:15:039 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:15:039 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:15:040 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:15:040 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:15:040 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:15:041 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:15:041 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:15:042 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:15:042 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:15:042 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:15:043 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:15:043 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:15:043 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:15:043 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:15:044 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:15:044 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:15:044 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:15:048 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 11 ms - 3114
+2022-06-17 22:36:15:048 [HTTP] 
+2022-06-17 22:36:18:237 [HTTP] Request idempotency key: 606cb861-9783-436d-86bf-c4f62c9e5214
+2022-06-17 22:36:18:701 [HTTP] --> POST /wd/hub/session
+2022-06-17 22:36:18:701 [HTTP] {"desiredCapabilities":{"appActivity":"flipboard.activities.LaunchActivityAlias","appPackage":"flipboard.app","platformName":"Android","deviceName":"Samsung A8","platformVersion":"9"},"capabilities":{"firstMatch":[{"appium:appActivity":"flipboard.activities.LaunchActivityAlias","appium:appPackage":"flipboard.app","appium:deviceName":"Samsung A8","platformName":"android","appium:platformVersion":"9"}]}}
+2022-06-17 22:36:18:705 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"flipboard.activities.LaunchActivityAlias","appPackage":"flipboard.app","platformName":"Android","deviceName":"Samsung A8","platformVersion":"9"},null,{"firstMatch":[{"appium:appActivity":"flipboard.activities.LaunchActivityAlias","appium:appPackage":"flipboard.app","appium:deviceName":"Samsung A8","platformName":"android","appium:platformVersion":"9"}]}]
+2022-06-17 22:36:19:322 [BaseDriver] Event 'newSessionRequested' logged at 1655485578706 (22:36:18 GMT+0530 (India Standard Time))
+2022-06-17 22:36:19:344 [Appium] 
+2022-06-17 22:36:19:344 [Appium] ======================================================================
+2022-06-17 22:36:19:344 [Appium]   DEPRECATION WARNING:
+2022-06-17 22:36:19:344 [Appium] 
+2022-06-17 22:36:19:345 [Appium]   The 'automationName' capability was not provided in the desired 
+2022-06-17 22:36:19:345 [Appium]   capabilities for this Android session
+2022-06-17 22:36:19:345 [Appium] 
+2022-06-17 22:36:19:345 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2022-06-17 22:36:19:345 [Appium]   UiAutomator2 Driver
+2022-06-17 22:36:19:346 [Appium] 
+2022-06-17 22:36:19:346 [Appium]   The next major version of Appium (2.x) will **require** the 
+2022-06-17 22:36:19:346 [Appium]   'automationName' capability to be set for all sessions on all 
+2022-06-17 22:36:19:346 [Appium]   platforms
+2022-06-17 22:36:19:346 [Appium] 
+2022-06-17 22:36:19:346 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2022-06-17 22:36:19:347 [Appium]   'automationName=UiAutomator1'
+2022-06-17 22:36:19:347 [Appium] 
+2022-06-17 22:36:19:347 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2022-06-17 22:36:19:347 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2022-06-17 22:36:19:354 [Appium] 
+2022-06-17 22:36:19:356 [Appium]   For more information about drivers, please visit 
+2022-06-17 22:36:19:356 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2022-06-17 22:36:19:356 [Appium]   'Drivers' menu
+2022-06-17 22:36:19:357 [Appium] 
+2022-06-17 22:36:19:357 [Appium] ======================================================================
+2022-06-17 22:36:19:357 [Appium] 
+2022-06-17 22:36:26:515 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-06-17 22:36:26:564 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-06-17 22:36:26:564 [BaseDriver] Creating session with W3C capabilities: {
+2022-06-17 22:36:26:565 [BaseDriver]   "alwaysMatch": {
+2022-06-17 22:36:26:565 [BaseDriver]     "platformName": "android",
+2022-06-17 22:36:26:566 [BaseDriver]     "appium:appActivity": "flipboard.activities.LaunchActivityAlias",
+2022-06-17 22:36:26:566 [BaseDriver]     "appium:appPackage": "flipboard.app",
+2022-06-17 22:36:26:566 [BaseDriver]     "appium:deviceName": "Samsung A8",
+2022-06-17 22:36:26:566 [BaseDriver]     "appium:platformVersion": "9"
+2022-06-17 22:36:26:566 [BaseDriver]   },
+2022-06-17 22:36:26:567 [BaseDriver]   "firstMatch": [
+2022-06-17 22:36:26:567 [BaseDriver]     {}
+2022-06-17 22:36:26:567 [BaseDriver]   ]
+2022-06-17 22:36:26:575 [BaseDriver] }
+2022-06-17 22:36:26:622 [BaseDriver] Session created with session id: 6a0f4e8f-01d2-4719-b8a8-af0af85e93c8
+2022-06-17 22:36:26:623 [UiAutomator2] Starting 'flipboard.app' directly on the device
+2022-06-17 22:36:26:633 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:26:633 [HTTP] {}
+2022-06-17 22:36:26:638 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:26:639 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:26:639 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:26:639 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:26:639 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:26:640 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:26:640 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:26:640 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:26:640 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:26:640 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:26:640 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:26:641 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:26:641 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:26:641 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:26:641 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:26:641 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:26:641 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:26:644 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 9 ms - 3114
+2022-06-17 22:36:26:645 [HTTP] 
+2022-06-17 22:36:27:710 [ADB] Found 31 'build-tools' folders under 'C:\Users\baliiaks\android-sdks' (newest first):
+2022-06-17 22:36:27:712 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/29.0.3
+2022-06-17 22:36:27:712 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/29.0.2
+2022-06-17 22:36:27:712 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/29.0.1
+2022-06-17 22:36:27:712 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/29.0.0
+2022-06-17 22:36:27:713 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/28.0.3
+2022-06-17 22:36:27:713 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/28.0.2
+2022-06-17 22:36:27:713 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/28.0.1
+2022-06-17 22:36:27:713 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/28.0.0
+2022-06-17 22:36:27:714 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/27.0.3
+2022-06-17 22:36:27:714 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/27.0.2
+2022-06-17 22:36:27:714 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/27.0.1
+2022-06-17 22:36:27:715 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/27.0.0
+2022-06-17 22:36:27:715 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/26.0.3
+2022-06-17 22:36:27:715 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/26.0.2
+2022-06-17 22:36:27:715 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/26.0.1
+2022-06-17 22:36:27:715 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/26.0.0
+2022-06-17 22:36:27:716 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/25.0.3
+2022-06-17 22:36:27:716 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/25.0.2
+2022-06-17 22:36:27:716 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/25.0.1
+2022-06-17 22:36:27:716 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/25.0.0
+2022-06-17 22:36:27:716 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/24.0.3
+2022-06-17 22:36:27:717 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/24.0.2
+2022-06-17 22:36:27:717 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/24.0.1
+2022-06-17 22:36:27:718 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/24.0.0
+2022-06-17 22:36:27:719 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/23.0.3
+2022-06-17 22:36:27:720 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/23.0.2
+2022-06-17 22:36:27:721 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/23.0.1
+2022-06-17 22:36:27:721 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/22.0.1
+2022-06-17 22:36:27:722 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/21.1.2
+2022-06-17 22:36:27:722 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/20.0.0
+2022-06-17 22:36:27:722 [ADB]     C:/Users/baliiaks/android-sdks/build-tools/19.1.0
+2022-06-17 22:36:27:726 [ADB] Using 'adb.exe' from 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe'
+2022-06-17 22:36:27:727 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 start-server'
+2022-06-17 22:36:27:956 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:27:959 [HTTP] {}
+2022-06-17 22:36:27:960 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:27:961 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:27:961 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:27:961 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:27:961 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:27:961 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:27:962 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:27:962 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:27:962 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:27:963 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:27:963 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:27:963 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:27:963 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:27:964 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:27:964 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:27:964 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:27:964 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:27:966 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 9 ms - 3114
+2022-06-17 22:36:27:967 [HTTP] 
+2022-06-17 22:36:29:053 [AndroidDriver] Retrieving device list
+2022-06-17 22:36:29:055 [ADB] Trying to find a connected android device
+2022-06-17 22:36:29:085 [ADB] Getting connected devices
+2022-06-17 22:36:29:160 [ADB] Connected devices: [{"udid":"8936aa69","state":"device"}]
+2022-06-17 22:36:29:161 [AndroidDriver] Looking for a device with Android '9.0.0'
+2022-06-17 22:36:29:161 [ADB] Setting device id to 8936aa69
+2022-06-17 22:36:29:162 [ADB] Getting device platform version
+2022-06-17 22:36:29:162 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell getprop ro.build.version.release'
+2022-06-17 22:36:29:378 [ADB] Current device property 'ro.build.version.release': 9
+2022-06-17 22:36:29:379 [AndroidDriver] Using device: 8936aa69
+2022-06-17 22:36:29:383 [ADB] Using 'adb.exe' from 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe'
+2022-06-17 22:36:29:384 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 start-server'
+2022-06-17 22:36:29:473 [ADB] Setting device id to 8936aa69
+2022-06-17 22:36:29:474 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell getprop ro.build.version.sdk'
+2022-06-17 22:36:29:642 [ADB] Current device property 'ro.build.version.sdk': 28
+2022-06-17 22:36:29:643 [ADB] Getting device platform version
+2022-06-17 22:36:29:643 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell getprop ro.build.version.release'
+2022-06-17 22:36:29:788 [ADB] Current device property 'ro.build.version.release': 9
+2022-06-17 22:36:29:788 [ADB] Device API level: 28
+2022-06-17 22:36:29:789 [UiAutomator2] Relaxing hidden api policy
+2022-06-17 22:36:29:790 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-06-17 22:36:30:034 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:30:034 [HTTP] {}
+2022-06-17 22:36:30:038 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:30:038 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:30:039 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:30:039 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:30:039 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:30:039 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:30:039 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:30:040 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:30:040 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:30:040 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:30:040 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:30:040 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:30:040 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:30:041 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:30:041 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:30:041 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:30:041 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:30:043 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 8 ms - 3114
+2022-06-17 22:36:30:044 [HTTP] 
+2022-06-17 22:36:30:083 [AndroidDriver] No app sent in, not parsing package/activity
+2022-06-17 22:36:30:084 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 wait-for-device'
+2022-06-17 22:36:30:167 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell echo ping'
+2022-06-17 22:36:30:296 [AndroidDriver] Pushing settings apk to device...
+2022-06-17 22:36:30:298 [ADB] Getting install status for io.appium.settings
+2022-06-17 22:36:30:299 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell dumpsys package io.appium.settings'
+2022-06-17 22:36:30:461 [ADB] 'io.appium.settings' is installed
+2022-06-17 22:36:30:461 [ADB] Getting package info for 'io.appium.settings'
+2022-06-17 22:36:30:462 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell dumpsys package io.appium.settings'
+2022-06-17 22:36:30:806 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-06-17 22:36:30:808 [ADB] There is no need to install/upgrade 'C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-06-17 22:36:30:811 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-06-17 22:36:30:813 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell 'pgrep --help; echo $?''
+2022-06-17 22:36:30:979 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-06-17 22:36:31:222 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-06-17 22:36:31:224 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell appops set io.appium.settings android:mock_location allow'
+2022-06-17 22:36:31:412 [Logcat] Starting logs capture with command: C:\\Users\\baliiaks\\android-sdks\\platform-tools\\adb.exe -P 5037 -s 8936aa69 logcat -v threadtime
+2022-06-17 22:36:31:626 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2022-06-17 22:36:31:629 [ADB] Forwarding system: 8200 to device: 6790
+2022-06-17 22:36:31:630 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 forward tcp:8200 tcp:6790'
+2022-06-17 22:36:31:755 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-06-17 22:36:31:755 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell dumpsys package io.appium.uiautomator2.server'
+2022-06-17 22:36:31:963 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-06-17 22:36:31:964 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-06-17 22:36:31:964 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell dumpsys package io.appium.uiautomator2.server'
+2022-06-17 22:36:33:875 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-06-17 22:36:33:876 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-06-17 22:36:33:878 [ADB] Checking app cert for C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2022-06-17 22:36:34:355 [ADB] Using 'apksigner.jar' from 'C:\Users\baliiaks\android-sdks\build-tools\29.0.3\lib\apksigner.jar'
+2022-06-17 22:36:34:358 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_311\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\baliiaks\\android-sdks\\build-tools\\29.0.3\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\baliiaks\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk'
+2022-06-17 22:36:35:046 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:35:047 [HTTP] {}
+2022-06-17 22:36:35:049 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:35:049 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:35:050 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:35:050 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:35:050 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:35:051 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:35:051 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:35:051 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:35:051 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:35:052 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:35:052 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:35:052 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:35:052 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:35:053 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:35:053 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:35:053 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:35:054 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:35:058 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 9 ms - 3114
+2022-06-17 22:36:35:058 [HTTP] 
+2022-06-17 22:36:37:579 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-06-17 22:36:37:579 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-06-17 22:36:37:579 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-06-17 22:36:37:579 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-06-17 22:36:37:579 [ADB] 
+2022-06-17 22:36:37:580 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-06-17 22:36:37:580 [ADB] 'C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2022-06-17 22:36:37:581 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-06-17 22:36:37:581 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-06-17 22:36:37:835 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-06-17 22:36:37:836 [ADB] Checking app cert for C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-06-17 22:36:37:875 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_311\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\baliiaks\\android-sdks\\build-tools\\29.0.3\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\baliiaks\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'
+2022-06-17 22:36:39:326 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-06-17 22:36:39:329 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-06-17 22:36:39:329 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-06-17 22:36:39:331 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-06-17 22:36:39:332 [ADB] 
+2022-06-17 22:36:39:336 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-06-17 22:36:39:336 [ADB] 'C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2022-06-17 22:36:39:337 [UiAutomator2] Server packages are not going to be (re)installed
+2022-06-17 22:36:39:345 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-06-17 22:36:39:347 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell pm list instrumentation'
+2022-06-17 22:36:39:533 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-06-17 22:36:39:539 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-06-17 22:36:39:540 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-06-17 22:36:39:540 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-06-17 22:36:39:770 [UiAutomator2] No app capability. Assuming it is already on the device
+2022-06-17 22:36:39:771 [ADB] Getting install status for flipboard.app
+2022-06-17 22:36:39:772 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell dumpsys package flipboard.app'
+2022-06-17 22:36:39:955 [ADB] 'flipboard.app' is installed
+2022-06-17 22:36:39:956 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell am force-stop flipboard.app'
+2022-06-17 22:36:40:047 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:40:047 [HTTP] {}
+2022-06-17 22:36:40:050 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:40:050 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:40:051 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:40:051 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:40:052 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:40:053 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:40:053 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:40:053 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:40:053 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:40:053 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:40:054 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:40:054 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:40:054 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:40:054 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:40:054 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:40:054 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:40:055 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:40:086 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 9 ms - 3114
+2022-06-17 22:36:40:086 [HTTP] 
+2022-06-17 22:36:40:163 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell pm clear flipboard.app'
+2022-06-17 22:36:40:626 [AndroidDriver] Performed fast reset on the installed 'flipboard.app' application (stop and clear)
+2022-06-17 22:36:40:627 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-06-17 22:36:40:885 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2022-06-17 22:36:40:886 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell am force-stop io.appium.uiautomator2.server.test'
+2022-06-17 22:36:41:145 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-06-17 22:36:41:145 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-06-17 22:36:41:145 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-06-17 22:36:41:146 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","8936aa69","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-06-17 22:36:41:498 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-06-17 22:36:41:503 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-06-17 22:36:41:514 [WD Proxy] socket hang up
+2022-06-17 22:36:42:555 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-06-17 22:36:42:557 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-06-17 22:36:42:563 [WD Proxy] socket hang up
+2022-06-17 22:36:43:479 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-06-17 22:36:43:578 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-06-17 22:36:43:579 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-06-17 22:36:43:588 [WD Proxy] socket hang up
+2022-06-17 22:36:44:592 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-06-17 22:36:44:592 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-06-17 22:36:44:598 [WD Proxy] socket hang up
+2022-06-17 22:36:45:054 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:45:054 [HTTP] {}
+2022-06-17 22:36:45:056 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:45:056 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:45:056 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:45:057 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:45:057 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:45:057 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:45:057 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:45:057 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:45:057 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:45:057 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:45:058 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:45:058 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:45:058 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:45:058 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:45:058 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:45:058 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:45:058 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:45:061 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 7 ms - 3114
+2022-06-17 22:36:45:061 [HTTP] 
+2022-06-17 22:36:45:605 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-06-17 22:36:45:606 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-06-17 22:36:45:833 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-06-17 22:36:45:834 [UiAutomator2] The initialization of the instrumentation process took 4687ms
+2022-06-17 22:36:45:835 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-06-17 22:36:45:835 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"flipboard.activities.LaunchActivityAlias","appPackage":"flipboard.app","deviceName":"Samsung A8","platformVersion":"9"},"platformName":"android","appActivity":"flipboard.activities.LaunchActivityAlias","appPackage":"flipboard.app","deviceName":"8936aa69","platformVersion":"9","deviceUDID":"8936aa69"}],"alwaysMatch":{}}}
+2022-06-17 22:36:45:927 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"flipboard.activities.LaunchActivityAlias","appPackage":"flipboard.app","deviceName":"Samsung A8","platformVersion":"9"},"platformName":"android","appActivity":"flipboard.activities.LaunchActivityAlias","appPackage":"flipboard.app","deviceName":"8936aa69","platformVersion":"9","deviceUDID":"8936aa69"}],"alwaysMatch":{}},"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb"}}
+2022-06-17 22:36:45:928 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-06-17 22:36:45:962 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/appium/device/info] with no body
+2022-06-17 22:36:46:099 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"androidId":"999192997ab6fa83","apiVersion":"28","bluetooth":{"state":"OFF"},"brand":"samsung","carrierName":"","displayDensity":420,"locale":"en_GB","manufacturer":"samsung","model":"SM-G885F","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_WIFI_P2P,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"IDLE","extraInfo":null,"isAvailable":true,"isConnected":false,"isFailover":false,"isRoaming":false,"state":"UNKNOWN","subtype":0,"subtypeName":"","type":13,"typeName":"WIFI_P2P"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TR...
+2022-06-17 22:36:46:100 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell dumpsys window'
+2022-06-17 22:36:46:373 [AndroidDriver] Screen already unlocked, doing nothing
+2022-06-17 22:36:46:374 [UiAutomator2] Starting 'flipboard.app/flipboard.activities.LaunchActivityAlias and waiting for 'flipboard.app/flipboard.activities.LaunchActivityAlias'
+2022-06-17 22:36:46:376 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell am start -W -n flipboard.app/flipboard.activities.LaunchActivityAlias -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-06-17 22:36:47:841 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/appium/device/pixel_ratio] with no body
+2022-06-17 22:36:47:858 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":2.625}
+2022-06-17 22:36:47:861 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2022-06-17 22:36:47:861 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/appium/device/system_bars] with no body
+2022-06-17 22:36:47:878 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"statusBar":63}}
+2022-06-17 22:36:47:879 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2022-06-17 22:36:47:879 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/window/current/size] with no body
+2022-06-17 22:36:47:903 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"height":2094,"width":1080}}
+2022-06-17 22:36:47:904 [Appium] New AndroidUiautomator2Driver session created successfully, session 6a0f4e8f-01d2-4719-b8a8-af0af85e93c8 added to master session list
+2022-06-17 22:36:47:905 [BaseDriver] Event 'newSessionStarted' logged at 1655485607905 (22:36:47 GMT+0530 (India Standard Time))
+2022-06-17 22:36:47:906 [W3C (6a0f4e8f)] Cached the protocol value 'W3C' for the new session 6a0f4e8f-01d2-4719-b8a8-af0af85e93c8
+2022-06-17 22:36:47:908 [W3C (6a0f4e8f)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"flipboard.activities.LaunchActivityAlias","appPackage":"flipboard.app","deviceName":"Samsung A8","platformVersion":"9"},"platformName":"android","appActivity":"flipboard.activities.LaunchActivityAlias","appPackage":"flipboard.app","deviceName":"8936aa69","platformVersion":"9","deviceUDID":"8936aa69","deviceApiLevel":28,"deviceScreenSize":"1080x2220","deviceScreenDensity":420,"deviceModel":"SM-G885F","deviceManufacturer":"samsung","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":2031}}}
+2022-06-17 22:36:47:915 [HTTP] <-- POST /wd/hub/session 200 29206 ms - 858
+2022-06-17 22:36:47:916 [HTTP] 
+2022-06-17 22:36:48:211 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/timeouts
+2022-06-17 22:36:48:212 [HTTP] {"implicit":10000}
+2022-06-17 22:36:48:215 [W3C (6a0f4e8f)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:48:216 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2022-06-17 22:36:48:217 [BaseDriver] Set implicit wait to 10000ms
+2022-06-17 22:36:48:218 [W3C (6a0f4e8f)] Responding to client with driver.timeouts() result: null
+2022-06-17 22:36:48:220 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/timeouts 200 7 ms - 14
+2022-06-17 22:36:48:220 [HTTP] 
+2022-06-17 22:36:49:297 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:49:298 [HTTP] {}
+2022-06-17 22:36:49:310 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:49:311 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:49:313 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 15 ms - 22
+2022-06-17 22:36:49:313 [HTTP] 
+2022-06-17 22:36:49:453 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element
+2022-06-17 22:36:49:453 [HTTP] {"using":"id","value":"flipboard.app:id/first_launch_get_started_button"}
+2022-06-17 22:36:49:459 [W3C (6a0f4e8f)] Calling AppiumDriver.findElement() with args: ["id","flipboard.app:id/first_launch_get_started_button","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:49:461 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:49:461 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:49:462 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-06-17 22:36:49:463 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element] with body: {"strategy":"id","selector":"flipboard.app:id/first_launch_get_started_button","context":"","multiple":false}
+2022-06-17 22:36:49:563 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"ELEMENT":"00000000-0000-0a78-ffff-ffff0000000b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a78-ffff-ffff0000000b"}}
+2022-06-17 22:36:49:564 [W3C (6a0f4e8f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a78-ffff-ffff0000000b","ELEMENT":"00000000-0000-0a78-ffff-ffff0000000b"}
+2022-06-17 22:36:49:571 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element 200 112 ms - 137
+2022-06-17 22:36:49:571 [HTTP] 
+2022-06-17 22:36:49:592 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a78-ffff-ffff0000000b/click
+2022-06-17 22:36:49:592 [HTTP] {"id":"00000000-0000-0a78-ffff-ffff0000000b"}
+2022-06-17 22:36:49:594 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a78-ffff-ffff0000000b","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:49:596 [WD Proxy] Matched '/element/00000000-0000-0a78-ffff-ffff0000000b/click' to command name 'click'
+2022-06-17 22:36:49:596 [WD Proxy] Proxying [POST /element/00000000-0000-0a78-ffff-ffff0000000b/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a78-ffff-ffff0000000b/click] with body: {"element":"00000000-0000-0a78-ffff-ffff0000000b"}
+2022-06-17 22:36:49:667 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:36:49:669 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:36:49:671 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a78-ffff-ffff0000000b/click 200 78 ms - 14
+2022-06-17 22:36:49:672 [HTTP] 
+2022-06-17 22:36:49:681 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:49:681 [HTTP] {}
+2022-06-17 22:36:49:690 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:49:691 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:49:693 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 11 ms - 22
+2022-06-17 22:36:49:693 [HTTP] 
+2022-06-17 22:36:49:705 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements
+2022-06-17 22:36:49:705 [HTTP] {"using":"id","value":"flipboard.app:id/topic_picker_topic_row_topic_tag"}
+2022-06-17 22:36:49:706 [W3C (6a0f4e8f)] Calling AppiumDriver.findElements() with args: ["id","flipboard.app:id/topic_picker_topic_row_topic_tag","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:49:707 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:49:707 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:49:708 [WD Proxy] Matched '/elements' to command name 'findElements'
+2022-06-17 22:36:49:709 [WD Proxy] Proxying [POST /elements] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/elements] with body: {"strategy":"id","selector":"flipboard.app:id/topic_picker_topic_row_topic_tag","context":"","multiple":true}
+2022-06-17 22:36:50:043 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:50:044 [HTTP] {}
+2022-06-17 22:36:50:046 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:50:046 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:50:047 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:50:047 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:50:047 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:50:047 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:50:048 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:50:048 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:50:048 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:50:048 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:50:049 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:50:049 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:50:049 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:50:049 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:50:049 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:50:049 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:50:050 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:50:054 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 8 ms - 3114
+2022-06-17 22:36:50:054 [HTTP] 
+2022-06-17 22:36:51:005 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":[{"ELEMENT":"00000000-0000-0a79-ffff-ffff00000029","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000029"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002a"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002b"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002c"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002d","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002d"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002e"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002f"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff00000030","element-6066-...
+2022-06-17 22:36:51:007 [W3C (6a0f4e8f)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000029","ELEMENT":"00000000-0000-0a79-ffff-ffff00000029"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002a","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002a"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002b","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002b"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002c","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002c"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002d","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002d"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002e","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002e"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002f","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002f"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000030","ELEMENT":"00000000-0000-0a79-ffff-ffff0000003...
+2022-06-17 22:36:51:009 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements 200 1303 ms - 2955
+2022-06-17 22:36:51:010 [HTTP] 
+2022-06-17 22:36:51:054 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a79-ffff-ffff00000029/click
+2022-06-17 22:36:51:055 [HTTP] {"id":"00000000-0000-0a79-ffff-ffff00000029"}
+2022-06-17 22:36:51:056 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a79-ffff-ffff00000029","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:51:064 [WD Proxy] Matched '/element/00000000-0000-0a79-ffff-ffff00000029/click' to command name 'click'
+2022-06-17 22:36:51:065 [WD Proxy] Proxying [POST /element/00000000-0000-0a79-ffff-ffff00000029/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a79-ffff-ffff00000029/click] with body: {"element":"00000000-0000-0a79-ffff-ffff00000029"}
+2022-06-17 22:36:51:147 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:36:51:148 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:36:51:149 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a79-ffff-ffff00000029/click 200 94 ms - 14
+2022-06-17 22:36:51:166 [HTTP] 
+2022-06-17 22:36:51:172 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:51:173 [HTTP] {}
+2022-06-17 22:36:51:174 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:51:175 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:51:177 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 4 ms - 22
+2022-06-17 22:36:51:178 [HTTP] 
+2022-06-17 22:36:51:192 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements
+2022-06-17 22:36:51:192 [HTTP] {"using":"id","value":"flipboard.app:id/topic_picker_topic_row_topic_tag"}
+2022-06-17 22:36:51:193 [W3C (6a0f4e8f)] Calling AppiumDriver.findElements() with args: ["id","flipboard.app:id/topic_picker_topic_row_topic_tag","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:51:194 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:51:195 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:51:195 [WD Proxy] Matched '/elements' to command name 'findElements'
+2022-06-17 22:36:51:197 [WD Proxy] Proxying [POST /elements] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/elements] with body: {"strategy":"id","selector":"flipboard.app:id/topic_picker_topic_row_topic_tag","context":"","multiple":true}
+2022-06-17 22:36:51:861 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":[{"ELEMENT":"00000000-0000-0a79-ffff-ffff00000029","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000029"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002a"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002b"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002c"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002d","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002d"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002e"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002f"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff00000030","element-6066-...
+2022-06-17 22:36:51:862 [W3C (6a0f4e8f)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000029","ELEMENT":"00000000-0000-0a79-ffff-ffff00000029"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002a","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002a"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002b","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002b"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002c","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002c"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002d","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002d"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002e","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002e"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002f","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002f"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000030","ELEMENT":"00000000-0000-0a79-ffff-ffff0000003...
+2022-06-17 22:36:51:864 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements 200 671 ms - 2955
+2022-06-17 22:36:51:864 [HTTP] 
+2022-06-17 22:36:51:884 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a79-ffff-ffff0000002a/click
+2022-06-17 22:36:51:885 [HTTP] {"id":"00000000-0000-0a79-ffff-ffff0000002a"}
+2022-06-17 22:36:51:887 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a79-ffff-ffff0000002a","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:51:895 [WD Proxy] Matched '/element/00000000-0000-0a79-ffff-ffff0000002a/click' to command name 'click'
+2022-06-17 22:36:51:896 [WD Proxy] Proxying [POST /element/00000000-0000-0a79-ffff-ffff0000002a/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a79-ffff-ffff0000002a/click] with body: {"element":"00000000-0000-0a79-ffff-ffff0000002a"}
+2022-06-17 22:36:51:960 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:36:51:962 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:36:51:964 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a79-ffff-ffff0000002a/click 200 79 ms - 14
+2022-06-17 22:36:51:964 [HTTP] 
+2022-06-17 22:36:51:969 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:51:970 [HTTP] {}
+2022-06-17 22:36:51:971 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:51:972 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:51:974 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 4 ms - 22
+2022-06-17 22:36:51:974 [HTTP] 
+2022-06-17 22:36:51:993 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements
+2022-06-17 22:36:51:993 [HTTP] {"using":"id","value":"flipboard.app:id/topic_picker_topic_row_topic_tag"}
+2022-06-17 22:36:51:994 [W3C (6a0f4e8f)] Calling AppiumDriver.findElements() with args: ["id","flipboard.app:id/topic_picker_topic_row_topic_tag","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:51:995 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:51:995 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:51:996 [WD Proxy] Matched '/elements' to command name 'findElements'
+2022-06-17 22:36:51:997 [WD Proxy] Proxying [POST /elements] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/elements] with body: {"strategy":"id","selector":"flipboard.app:id/topic_picker_topic_row_topic_tag","context":"","multiple":true}
+2022-06-17 22:36:52:629 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":[{"ELEMENT":"00000000-0000-0a79-ffff-ffff00000029","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000029"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002a"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002b"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002c"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002d","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002d"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002e"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000002f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002f"},{"ELEMENT":"00000000-0000-0a79-ffff-ffff00000030","element-6066-...
+2022-06-17 22:36:52:631 [W3C (6a0f4e8f)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000029","ELEMENT":"00000000-0000-0a79-ffff-ffff00000029"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002a","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002a"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002b","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002b"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002c","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002c"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002d","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002d"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002e","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002e"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000002f","ELEMENT":"00000000-0000-0a79-ffff-ffff0000002f"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff00000030","ELEMENT":"00000000-0000-0a79-ffff-ffff0000003...
+2022-06-17 22:36:52:634 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements 200 640 ms - 2955
+2022-06-17 22:36:52:634 [HTTP] 
+2022-06-17 22:36:52:660 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a79-ffff-ffff0000002b/click
+2022-06-17 22:36:52:660 [HTTP] {"id":"00000000-0000-0a79-ffff-ffff0000002b"}
+2022-06-17 22:36:52:661 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a79-ffff-ffff0000002b","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:52:662 [WD Proxy] Matched '/element/00000000-0000-0a79-ffff-ffff0000002b/click' to command name 'click'
+2022-06-17 22:36:52:663 [WD Proxy] Proxying [POST /element/00000000-0000-0a79-ffff-ffff0000002b/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a79-ffff-ffff0000002b/click] with body: {"element":"00000000-0000-0a79-ffff-ffff0000002b"}
+2022-06-17 22:36:52:755 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:36:52:756 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:36:52:758 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a79-ffff-ffff0000002b/click 200 98 ms - 14
+2022-06-17 22:36:52:758 [HTTP] 
+2022-06-17 22:36:52:762 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:52:762 [HTTP] {}
+2022-06-17 22:36:52:763 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:52:764 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:52:766 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 4 ms - 22
+2022-06-17 22:36:52:766 [HTTP] 
+2022-06-17 22:36:52:781 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element
+2022-06-17 22:36:52:782 [HTTP] {"using":"id","value":"flipboard.app:id/topic_picker_continue_button"}
+2022-06-17 22:36:52:783 [W3C (6a0f4e8f)] Calling AppiumDriver.findElement() with args: ["id","flipboard.app:id/topic_picker_continue_button","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:52:784 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:52:784 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:52:787 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-06-17 22:36:52:787 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element] with body: {"strategy":"id","selector":"flipboard.app:id/topic_picker_continue_button","context":"","multiple":false}
+2022-06-17 22:36:53:455 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"ELEMENT":"00000000-0000-0a79-ffff-ffff0000001c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000001c"}}
+2022-06-17 22:36:53:457 [W3C (6a0f4e8f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a79-ffff-ffff0000001c","ELEMENT":"00000000-0000-0a79-ffff-ffff0000001c"}
+2022-06-17 22:36:53:460 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element 200 676 ms - 137
+2022-06-17 22:36:53:460 [HTTP] 
+2022-06-17 22:36:53:476 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a79-ffff-ffff0000001c/click
+2022-06-17 22:36:53:476 [HTTP] {"id":"00000000-0000-0a79-ffff-ffff0000001c"}
+2022-06-17 22:36:53:477 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a79-ffff-ffff0000001c","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:53:479 [WD Proxy] Matched '/element/00000000-0000-0a79-ffff-ffff0000001c/click' to command name 'click'
+2022-06-17 22:36:53:479 [WD Proxy] Proxying [POST /element/00000000-0000-0a79-ffff-ffff0000001c/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a79-ffff-ffff0000001c/click] with body: {"element":"00000000-0000-0a79-ffff-ffff0000001c"}
+2022-06-17 22:36:53:560 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:36:53:560 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:36:53:562 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a79-ffff-ffff0000001c/click 200 86 ms - 14
+2022-06-17 22:36:53:562 [HTTP] 
+2022-06-17 22:36:53:570 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:53:571 [HTTP] {}
+2022-06-17 22:36:53:572 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:53:573 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:53:574 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 3 ms - 22
+2022-06-17 22:36:53:574 [HTTP] 
+2022-06-17 22:36:53:587 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element
+2022-06-17 22:36:53:587 [HTTP] {"using":"id","value":"flipboard.app:id/edu_full_screen_sheet_action_primary"}
+2022-06-17 22:36:53:588 [W3C (6a0f4e8f)] Calling AppiumDriver.findElement() with args: ["id","flipboard.app:id/edu_full_screen_sheet_action_primary","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:53:589 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:53:589 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:53:590 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-06-17 22:36:53:590 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element] with body: {"strategy":"id","selector":"flipboard.app:id/edu_full_screen_sheet_action_primary","context":"","multiple":false}
+2022-06-17 22:36:53:784 [WD Proxy] Got response with status 404: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-06-17 22:36:53:786 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-06-17 22:36:53:787 [BaseDriver] Waited for 198 ms so far
+2022-06-17 22:36:54:289 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-06-17 22:36:54:290 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element] with body: {"strategy":"id","selector":"flipboard.app:id/edu_full_screen_sheet_action_primary","context":"","multiple":false}
+2022-06-17 22:36:54:322 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"ELEMENT":"00000000-0000-0a7a-ffff-ffff00000089","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7a-ffff-ffff00000089"}}
+2022-06-17 22:36:54:323 [W3C (6a0f4e8f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7a-ffff-ffff00000089","ELEMENT":"00000000-0000-0a7a-ffff-ffff00000089"}
+2022-06-17 22:36:54:325 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element 200 737 ms - 137
+2022-06-17 22:36:54:325 [HTTP] 
+2022-06-17 22:36:54:339 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7a-ffff-ffff00000089/click
+2022-06-17 22:36:54:339 [HTTP] {"id":"00000000-0000-0a7a-ffff-ffff00000089"}
+2022-06-17 22:36:54:340 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a7a-ffff-ffff00000089","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:54:341 [WD Proxy] Matched '/element/00000000-0000-0a7a-ffff-ffff00000089/click' to command name 'click'
+2022-06-17 22:36:54:341 [WD Proxy] Proxying [POST /element/00000000-0000-0a7a-ffff-ffff00000089/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a7a-ffff-ffff00000089/click] with body: {"element":"00000000-0000-0a7a-ffff-ffff00000089"}
+2022-06-17 22:36:54:369 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:36:54:370 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:36:54:374 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7a-ffff-ffff00000089/click 200 32 ms - 14
+2022-06-17 22:36:54:375 [HTTP] 
+2022-06-17 22:36:54:377 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:54:377 [HTTP] {}
+2022-06-17 22:36:54:378 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:54:379 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:54:380 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 3 ms - 22
+2022-06-17 22:36:54:381 [HTTP] 
+2022-06-17 22:36:54:387 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element
+2022-06-17 22:36:54:388 [HTTP] {"using":"id","value":"flipboard.app:id/edu_full_screen_sheet_action_primary"}
+2022-06-17 22:36:54:389 [W3C (6a0f4e8f)] Calling AppiumDriver.findElement() with args: ["id","flipboard.app:id/edu_full_screen_sheet_action_primary","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:54:389 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:54:390 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:54:390 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-06-17 22:36:54:391 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element] with body: {"strategy":"id","selector":"flipboard.app:id/edu_full_screen_sheet_action_primary","context":"","multiple":false}
+2022-06-17 22:36:55:021 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"ELEMENT":"00000000-0000-0a7b-ffff-ffff00000097","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7b-ffff-ffff00000097"}}
+2022-06-17 22:36:55:022 [W3C (6a0f4e8f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7b-ffff-ffff00000097","ELEMENT":"00000000-0000-0a7b-ffff-ffff00000097"}
+2022-06-17 22:36:55:023 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element 200 635 ms - 137
+2022-06-17 22:36:55:023 [HTTP] 
+2022-06-17 22:36:55:033 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7b-ffff-ffff00000097/click
+2022-06-17 22:36:55:033 [HTTP] {"id":"00000000-0000-0a7b-ffff-ffff00000097"}
+2022-06-17 22:36:55:035 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a7b-ffff-ffff00000097","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:55:036 [WD Proxy] Matched '/element/00000000-0000-0a7b-ffff-ffff00000097/click' to command name 'click'
+2022-06-17 22:36:55:037 [WD Proxy] Proxying [POST /element/00000000-0000-0a7b-ffff-ffff00000097/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a7b-ffff-ffff00000097/click] with body: {"element":"00000000-0000-0a7b-ffff-ffff00000097"}
+2022-06-17 22:36:55:068 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:36:55:069 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:36:55:070 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7b-ffff-ffff00000097/click 200 37 ms - 14
+2022-06-17 22:36:55:071 [HTTP] 
+2022-06-17 22:36:55:409 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:36:55:409 [HTTP] {}
+2022-06-17 22:36:55:411 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:36:55:411 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:36:55:411 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:36:55:412 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:55:412 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:36:55:412 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:36:55:412 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:55:413 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:36:55:413 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:36:55:414 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:36:55:414 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:36:55:414 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:36:55:414 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:36:55:414 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:36:55:415 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:36:55:415 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:36:55:415 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:36:55:417 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 7 ms - 3114
+2022-06-17 22:36:55:418 [HTTP] 
+2022-06-17 22:36:59:095 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:59:095 [HTTP] {}
+2022-06-17 22:36:59:096 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:59:097 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:59:099 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 3 ms - 22
+2022-06-17 22:36:59:099 [HTTP] 
+2022-06-17 22:36:59:119 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element
+2022-06-17 22:36:59:123 [HTTP] {"using":"id","value":"flipboard.app:id/account_login_buttons_skip"}
+2022-06-17 22:36:59:124 [W3C (6a0f4e8f)] Calling AppiumDriver.findElement() with args: ["id","flipboard.app:id/account_login_buttons_skip","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:59:125 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:59:125 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:59:126 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-06-17 22:36:59:126 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element] with body: {"strategy":"id","selector":"flipboard.app:id/account_login_buttons_skip","context":"","multiple":false}
+2022-06-17 22:36:59:230 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"ELEMENT":"00000000-0000-0a7c-ffff-ffff000000a2","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7c-ffff-ffff000000a2"}}
+2022-06-17 22:36:59:231 [W3C (6a0f4e8f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7c-ffff-ffff000000a2","ELEMENT":"00000000-0000-0a7c-ffff-ffff000000a2"}
+2022-06-17 22:36:59:233 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element 200 113 ms - 137
+2022-06-17 22:36:59:233 [HTTP] 
+2022-06-17 22:36:59:242 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7c-ffff-ffff000000a2/click
+2022-06-17 22:36:59:243 [HTTP] {"id":"00000000-0000-0a7c-ffff-ffff000000a2"}
+2022-06-17 22:36:59:243 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a7c-ffff-ffff000000a2","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:59:245 [WD Proxy] Matched '/element/00000000-0000-0a7c-ffff-ffff000000a2/click' to command name 'click'
+2022-06-17 22:36:59:245 [WD Proxy] Proxying [POST /element/00000000-0000-0a7c-ffff-ffff000000a2/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a7c-ffff-ffff000000a2/click] with body: {"element":"00000000-0000-0a7c-ffff-ffff000000a2"}
+2022-06-17 22:36:59:329 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:36:59:330 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:36:59:331 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7c-ffff-ffff000000a2/click 200 88 ms - 14
+2022-06-17 22:36:59:331 [HTTP] 
+2022-06-17 22:36:59:337 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:36:59:337 [HTTP] {}
+2022-06-17 22:36:59:338 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:59:339 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:36:59:340 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 3 ms - 22
+2022-06-17 22:36:59:340 [HTTP] 
+2022-06-17 22:36:59:353 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements
+2022-06-17 22:36:59:354 [HTTP] {"using":"id","value":"flipboard.app:id/sliding_title_strip_container"}
+2022-06-17 22:36:59:355 [W3C (6a0f4e8f)] Calling AppiumDriver.findElements() with args: ["id","flipboard.app:id/sliding_title_strip_container","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:36:59:355 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:36:59:356 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:36:59:356 [WD Proxy] Matched '/elements' to command name 'findElements'
+2022-06-17 22:36:59:357 [WD Proxy] Proxying [POST /elements] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/elements] with body: {"strategy":"id","selector":"flipboard.app:id/sliding_title_strip_container","context":"","multiple":true}
+2022-06-17 22:36:59:424 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":[]}
+2022-06-17 22:36:59:424 [BaseDriver] Waited for 68 ms so far
+2022-06-17 22:36:59:930 [WD Proxy] Matched '/elements' to command name 'findElements'
+2022-06-17 22:36:59:931 [WD Proxy] Proxying [POST /elements] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/elements] with body: {"strategy":"id","selector":"flipboard.app:id/sliding_title_strip_container","context":"","multiple":true}
+2022-06-17 22:37:00:277 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:37:00:278 [HTTP] {}
+2022-06-17 22:37:00:289 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:37:00:290 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:37:00:290 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:37:00:290 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:00:290 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:37:00:290 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:37:00:291 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:00:291 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:37:00:291 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:37:00:291 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:37:00:291 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:37:00:291 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:37:00:291 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:37:00:292 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:00:292 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:37:00:292 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:37:00:292 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:37:00:294 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 16 ms - 3114
+2022-06-17 22:37:00:294 [HTTP] 
+2022-06-17 22:37:03:487 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":[{"ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e3","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e3"}]}
+2022-06-17 22:37:03:488 [W3C (6a0f4e8f)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e3","ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e3"}]
+2022-06-17 22:37:03:491 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements 200 4135 ms - 139
+2022-06-17 22:37:03:492 [HTTP] 
+2022-06-17 22:37:03:504 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e3/elements
+2022-06-17 22:37:03:504 [HTTP] {"id":"00000000-0000-0a7e-ffff-ffff000000e3","using":"id","value":"flipboard.app:id/sliding_title_text_view"}
+2022-06-17 22:37:03:505 [W3C (6a0f4e8f)] Calling AppiumDriver.findElementsFromElement() with args: ["id","flipboard.app:id/sliding_title_text_view","00000000-0000-0a7e-ffff-ffff000000e3","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:03:506 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:37:03:506 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:37:03:507 [WD Proxy] Matched '/elements' to command name 'findElements'
+2022-06-17 22:37:03:508 [WD Proxy] Proxying [POST /elements] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/elements] with body: {"strategy":"id","selector":"flipboard.app:id/sliding_title_text_view","context":"00000000-0000-0a7e-ffff-ffff000000e3","multiple":true}
+2022-06-17 22:37:03:581 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":[{"ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e4","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e4"},{"ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e5","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e5"},{"ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e7","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e7"}]}
+2022-06-17 22:37:03:582 [W3C (6a0f4e8f)] Responding to client with driver.findElementsFromElement() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e4","ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e4"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e5","ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e5"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e7","ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e7"}]
+2022-06-17 22:37:03:584 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e3/elements 200 79 ms - 395
+2022-06-17 22:37:03:585 [HTTP] 
+2022-06-17 22:37:03:591 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e5/text
+2022-06-17 22:37:03:591 [HTTP] {}
+2022-06-17 22:37:03:593 [W3C (6a0f4e8f)] Driver proxy active, passing request on via HTTP proxy
+2022-06-17 22:37:03:596 [WD Proxy] Matched '/wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e5/text' to command name 'getText'
+2022-06-17 22:37:03:597 [WD Proxy] Proxying [GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e5/text] to [GET http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a7e-ffff-ffff000000e5/text] with no body
+2022-06-17 22:37:03:673 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":"UKRAINE WAR"}
+2022-06-17 22:37:03:673 [WD Proxy] Replacing sessionId 490908a6-0e0e-4257-820e-d1022057cbdb with 6a0f4e8f-01d2-4719-b8a8-af0af85e93c8
+2022-06-17 22:37:03:675 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e5/text 200 84 ms - 74
+2022-06-17 22:37:03:676 [HTTP] 
+2022-06-17 22:37:03:681 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context
+2022-06-17 22:37:03:682 [HTTP] {}
+2022-06-17 22:37:03:683 [W3C (6a0f4e8f)] Calling AppiumDriver.getCurrentContext() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:03:685 [W3C (6a0f4e8f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-06-17 22:37:03:687 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/context 200 5 ms - 22
+2022-06-17 22:37:03:687 [HTTP] 
+2022-06-17 22:37:03:693 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements
+2022-06-17 22:37:03:694 [HTTP] {"using":"id","value":"flipboard.app:id/sliding_title_strip_container"}
+2022-06-17 22:37:03:695 [W3C (6a0f4e8f)] Calling AppiumDriver.findElements() with args: ["id","flipboard.app:id/sliding_title_strip_container","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:03:697 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:37:03:697 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:37:03:698 [WD Proxy] Matched '/elements' to command name 'findElements'
+2022-06-17 22:37:03:698 [WD Proxy] Proxying [POST /elements] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/elements] with body: {"strategy":"id","selector":"flipboard.app:id/sliding_title_strip_container","context":"","multiple":true}
+2022-06-17 22:37:05:041 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:37:05:041 [HTTP] {}
+2022-06-17 22:37:05:043 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:37:05:043 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:37:05:043 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:37:05:043 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:05:043 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:37:05:044 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:37:05:044 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:05:044 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:37:05:044 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:37:05:044 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:37:05:044 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:37:05:045 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:37:05:045 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:37:05:045 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:05:045 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:37:05:045 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:37:05:045 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:37:05:048 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 6 ms - 3114
+2022-06-17 22:37:05:048 [HTTP] 
+2022-06-17 22:37:06:174 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":[{"ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e3","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e3"}]}
+2022-06-17 22:37:06:175 [W3C (6a0f4e8f)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e3","ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e3"}]
+2022-06-17 22:37:06:177 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/elements 200 2483 ms - 139
+2022-06-17 22:37:06:177 [HTTP] 
+2022-06-17 22:37:06:186 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e3/elements
+2022-06-17 22:37:06:186 [HTTP] {"id":"00000000-0000-0a7e-ffff-ffff000000e3","using":"id","value":"flipboard.app:id/sliding_title_text_view"}
+2022-06-17 22:37:06:187 [W3C (6a0f4e8f)] Calling AppiumDriver.findElementsFromElement() with args: ["id","flipboard.app:id/sliding_title_text_view","00000000-0000-0a7e-ffff-ffff000000e3","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:06:188 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-06-17 22:37:06:188 [BaseDriver] Waiting up to 10000 ms for condition
+2022-06-17 22:37:06:189 [WD Proxy] Matched '/elements' to command name 'findElements'
+2022-06-17 22:37:06:189 [WD Proxy] Proxying [POST /elements] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/elements] with body: {"strategy":"id","selector":"flipboard.app:id/sliding_title_text_view","context":"00000000-0000-0a7e-ffff-ffff000000e3","multiple":true}
+2022-06-17 22:37:06:280 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":[{"ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e4","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e4"},{"ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e5","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e5"},{"ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e7","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e7"}]}
+2022-06-17 22:37:06:281 [W3C (6a0f4e8f)] Responding to client with driver.findElementsFromElement() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e4","ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e4"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e5","ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e5"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0a7e-ffff-ffff000000e7","ELEMENT":"00000000-0000-0a7e-ffff-ffff000000e7"}]
+2022-06-17 22:37:06:283 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e3/elements 200 96 ms - 395
+2022-06-17 22:37:06:284 [HTTP] 
+2022-06-17 22:37:06:298 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e5/click
+2022-06-17 22:37:06:298 [HTTP] {"id":"00000000-0000-0a7e-ffff-ffff000000e5"}
+2022-06-17 22:37:06:300 [W3C (6a0f4e8f)] Calling AppiumDriver.click() with args: ["00000000-0000-0a7e-ffff-ffff000000e5","6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:06:302 [WD Proxy] Matched '/element/00000000-0000-0a7e-ffff-ffff000000e5/click' to command name 'click'
+2022-06-17 22:37:06:302 [WD Proxy] Proxying [POST /element/00000000-0000-0a7e-ffff-ffff000000e5/click] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/element/00000000-0000-0a7e-ffff-ffff000000e5/click] with body: {"element":"00000000-0000-0a7e-ffff-ffff000000e5"}
+2022-06-17 22:37:06:344 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:37:06:345 [W3C (6a0f4e8f)] Responding to client with driver.click() result: null
+2022-06-17 22:37:06:347 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/element/00000000-0000-0a7e-ffff-ffff000000e5/click 200 48 ms - 14
+2022-06-17 22:37:06:347 [HTTP] 
+2022-06-17 22:37:09:360 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/screenshot
+2022-06-17 22:37:09:360 [HTTP] {}
+2022-06-17 22:37:09:362 [W3C (6a0f4e8f)] Calling AppiumDriver.getScreenshot() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:09:363 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2022-06-17 22:37:09:363 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/screenshot] with no body
+2022-06-17 22:37:10:045 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:37:10:045 [HTTP] {}
+2022-06-17 22:37:10:047 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:37:10:047 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:37:10:047 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:37:10:047 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:10:048 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:37:10:048 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:37:10:048 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:10:048 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:37:10:048 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:37:10:055 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:37:10:055 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:37:10:055 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:37:10:056 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:37:10:056 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:10:056 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:37:10:056 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:37:10:056 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:37:10:058 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 12 ms - 3114
+2022-06-17 22:37:10:058 [HTTP] 
+2022-06-17 22:37:10:793 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xl8U1XeP/DPzZ42SfeFbmmbbrRAWWUpUER2RVDcFXXUER5nxtfM6OjMPG64jcy4zOP46Dgu\nILgOizCoICog+1agC5RCS/eS7mnTJm22+/ujT+6voWlz0yZpA9/368WLJjn33JM2ucv3nPM9DAAW\nhBBCCCGEEEIIIX5MMNwNIIQQQgghhBBCCBkqCnAQQgghhBBCCCHE71GAgxBCCCGEEEIIIX6PAhyE\nEEIIIYQQQgjxexTgIIQQQgghhBBCiN+jAAchhBBCCCGEEEL8HgU4CCGEEEIIIYQQ4vcowEEIIYQQ\nQgghhBC/RwEOQgghhBBCCCGE+D0KcBBCCCGEEEIIIcTvUYCDEEIIIYQQQgghfo8CHIQQQgghhBBC\nCPF7ouFuACHk2iIWixEaGoqwsDCYzWZYrVav7stsNqO5uRltbW1e2w8hhBBytQgICAAAGAyGYW5J\nD4ZhoFAoIBaLwTCMw2sGgwFGo3GYWkYIGYkYAOxwN4IQcnWzX5CwLIv09HTMnz8f33//PZqamsCy\nrEM5hmFgs9ncrt/ZdkKhEJMnT4ZarcZHH33k1WAKIYQQMtykUikyMjJQUFDgcH7lKyIiAjfffDOE\nQiG2bt2KpqYmL7RyYGKxGBEREQgODkZwcDBUKhWEQmG/5U0mE3Q6Hdra2qDT6dDY2Dio907IcBKJ\nRFi+fDkXYHSmvr4e33//vQ9b5Z9oBAchHiIQCBAVFYUZM2bgp59+gk6nG+4mjUghISGYO3cutFot\nNm/e7PDaokWLoNFosGnTJjQ0NPCuMzc3F9OnT8e6detQX1/v8NrSpUvBsiyEQiEFOAghhFy1JBIJ\nli5dihkzZmDr1q04ePCgW9tH...
+2022-06-17 22:37:10:815 [W3C (6a0f4e8f)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xl8U1XeP/DPzZ42SfeFbmmbbrRAWWUpUER2RVDcFXXUER5nxtfM6OjMPG64jcy4zOP46Dgu\nILgOizCoICog+1agC5RCS/eS7mnTJm22+/ujT+6voWlz0yZpA9/368WLJjn33JM2ucv3nPM9DAAW\nhBBCCCGEEEIIIX5MMNwNIIQQQgghhBBCCBkqCnAQQgghhBBCCCHE71GAgxBCCCGEEEIIIX6PAhyE\nEEIIIYQQQgjxexTgIIQQQgghhBBCiN+jAAchhBBCCCGEEEL8HgU4CCGEEEIIIYQQ4vcowEEIIYQQ\nQgghhBC/RwEOQgghhBBCCCGE+D0KcBBCCCGEEEIIIcTvUYCDEEIIIYQQQgghfo8CHIQQQgghhBBC\nCPF7ouFuACHk2iIWixEaGoqwsDCYzWZYrVav7stsNqO5uRltbW1e2w8hhBBytQgICAAAGAyGYW5J\nD4ZhoFAoIBaLwTCMw2sGgwFGo3GYWkYIGYkYAOxwN4IQcnWzX5CwLIv09HTMnz8f33//PZqamsCy\nrEM5hmFgs9ncrt/ZdkKhEJMnT4ZarcZHH33k1WAKIYQQMtykUikyMjJQUFDgcH7lKyIiAjfffDOE\nQiG2bt2KpqYmL7RyYGKxGBEREQgODkZwcDBUKhWEQmG/5U0mE3Q6Hdra2qDT6dDY2Dio907IcBKJ\nRFi+fDkXYHSmvr4e33//vQ9b5Z9oBAchHiIQCBAVFYUZM2bgp59+gk6nG+4mjUghISGYO3cutFot\nNm/e7PDaokWLoNFosGnTJjQ0NPCuMzc3F9OnT8e6detQX1/v8NrSpUvBsiyEQiEFOAghhFy1JBIJ\nli5dihkzZmDr1q04ePCgW9tHRUXh7rvvxsKFCyEUCnHhwgXs27fPO411QqlUIjExEbGxsQMGNK4k\nkUgQGR...
+2022-06-17 22:37:11:076 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/screenshot 200 1694 ms - 1955338
+2022-06-17 22:37:11:083 [HTTP] 
+2022-06-17 22:37:11:739 [HTTP] --> GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/window/rect
+2022-06-17 22:37:11:740 [HTTP] {}
+2022-06-17 22:37:11:751 [W3C (6a0f4e8f)] Calling AppiumDriver.getWindowRect() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:11:758 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2022-06-17 22:37:11:759 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/window/current/size] with no body
+2022-06-17 22:37:11:804 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":{"height":2094,"width":1080}}
+2022-06-17 22:37:11:805 [W3C (6a0f4e8f)] Responding to client with driver.getWindowRect() result: {"width":1080,"height":2094,"x":0,"y":0}
+2022-06-17 22:37:11:806 [HTTP] <-- GET /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/window/rect 200 66 ms - 50
+2022-06-17 22:37:11:806 [HTTP] 
+2022-06-17 22:37:11:842 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/touch/perform
+2022-06-17 22:37:11:842 [HTTP] {"actions":[{"action":"press","options":{"x":514,"y":1675}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":514,"y":439}},{"action":"release","options":{}}]}
+2022-06-17 22:37:11:844 [W3C (6a0f4e8f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":514,"y":1675}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":514,"y":439}},{"action":"release","options":{}}],"6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:11:860 [WD Proxy] Matched '/touch/perform' to command name 'performTouch'
+2022-06-17 22:37:11:861 [WD Proxy] Proxying [POST /touch/perform] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/touch/perform] with body: {"startX":514,"startY":1675,"endX":514,"endY":439,"steps":56}
+2022-06-17 22:37:13:710 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:37:13:710 [W3C (6a0f4e8f)] Responding to client with driver.performTouch() result: null
+2022-06-17 22:37:13:712 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/touch/perform 200 1869 ms - 14
+2022-06-17 22:37:13:712 [HTTP] 
+2022-06-17 22:37:13:725 [HTTP] --> POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/touch/perform
+2022-06-17 22:37:13:726 [HTTP] {"actions":[{"action":"press","options":{"x":514,"y":1675}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":514,"y":439}},{"action":"release","options":{}}]}
+2022-06-17 22:37:13:727 [W3C (6a0f4e8f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":514,"y":1675}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":514,"y":439}},{"action":"release","options":{}}],"6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:13:729 [WD Proxy] Matched '/touch/perform' to command name 'performTouch'
+2022-06-17 22:37:13:729 [WD Proxy] Proxying [POST /touch/perform] to [POST http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb/touch/perform] with body: {"startX":514,"startY":1675,"endX":514,"endY":439,"steps":56}
+2022-06-17 22:37:15:114 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:37:15:114 [HTTP] {}
+2022-06-17 22:37:15:117 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:37:15:118 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:37:15:118 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:37:15:118 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:15:119 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:37:15:119 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:37:15:119 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:15:119 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:37:15:119 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:37:15:119 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:37:15:120 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:37:15:120 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:37:15:120 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:37:15:120 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:15:120 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:37:15:120 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:37:15:121 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:37:15:122 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 8 ms - 3114
+2022-06-17 22:37:15:122 [HTTP] 
+2022-06-17 22:37:15:538 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:37:15:538 [W3C (6a0f4e8f)] Responding to client with driver.performTouch() result: null
+2022-06-17 22:37:15:539 [HTTP] <-- POST /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8/touch/perform 200 1814 ms - 14
+2022-06-17 22:37:15:540 [HTTP] 
+2022-06-17 22:37:19:118 [HTTP] --> DELETE /wd/hub/session/6a0f4e8f-01d2-4719-b8a8-af0af85e93c8
+2022-06-17 22:37:19:118 [HTTP] {}
+2022-06-17 22:37:19:119 [W3C (6a0f4e8f)] Calling AppiumDriver.deleteSession() with args: ["6a0f4e8f-01d2-4719-b8a8-af0af85e93c8"]
+2022-06-17 22:37:19:119 [BaseDriver] Event 'quitSessionRequested' logged at 1655485639119 (22:37:19 GMT+0530 (India Standard Time))
+2022-06-17 22:37:19:576 [Appium] Removing session 6a0f4e8f-01d2-4719-b8a8-af0af85e93c8 from our master session list
+2022-06-17 22:37:19:579 [UiAutomator2] Deleting UiAutomator2 session
+2022-06-17 22:37:19:580 [UiAutomator2] Deleting UiAutomator2 server session
+2022-06-17 22:37:19:580 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-06-17 22:37:19:581 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/490908a6-0e0e-4257-820e-d1022057cbdb] with no body
+2022-06-17 22:37:19:630 [WD Proxy] Got response with status 200: {"sessionId":"490908a6-0e0e-4257-820e-d1022057cbdb","value":null}
+2022-06-17 22:37:19:632 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell am force-stop flipboard.app'
+2022-06-17 22:37:19:649 [Instrumentation] .
+2022-06-17 22:37:19:674 [Instrumentation] Time: 36.171
+2022-06-17 22:37:19:674 [Instrumentation] 
+2022-06-17 22:37:19:675 [Instrumentation] OK (1 test)
+2022-06-17 22:37:19:962 [Instrumentation] The process has exited with code 0
+2022-06-17 22:37:20:209 [HTTP] --> GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts
+2022-06-17 22:37:20:210 [HTTP] {}
+2022-06-17 22:37:20:211 [GENERIC (9374d950)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2022-06-17 22:37:20:212 [GENERIC (9374d950)]     at asyncHandler (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2022-06-17 22:37:20:212 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2022-06-17 22:37:20:212 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:20:212 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2022-06-17 22:37:20:212 [GENERIC (9374d950)]     at Route.dispatch (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2022-06-17 22:37:20:213 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:20:213 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2022-06-17 22:37:20:213 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2022-06-17 22:37:20:213 [GENERIC (9374d950)]     at param (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2022-06-17 22:37:20:213 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2022-06-17 22:37:20:213 [GENERIC (9374d950)]     at next (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2022-06-17 22:37:20:214 [GENERIC (9374d950)]     at logger (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+2022-06-17 22:37:20:214 [GENERIC (9374d950)]     at Layer.handle [as handle_request] (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2022-06-17 22:37:20:214 [GENERIC (9374d950)]     at trim_prefix (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2022-06-17 22:37:20:215 [GENERIC (9374d950)]     at C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2022-06-17 22:37:20:216 [GENERIC (9374d950)]     at Function.process_params (C:\Users\baliiaks\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2022-06-17 22:37:20:218 [HTTP] <-- GET /wd/hub/session/9374d950-db63-42b4-81d5-7e8b11e36ca9/timeouts 404 8 ms - 3114
+2022-06-17 22:37:20:218 [HTTP] 
+2022-06-17 22:37:20:237 [Logcat] Stopping logcat capture
+2022-06-17 22:37:20:424 [ADB] Removing forwarded port socket connection: 8200 
+2022-06-17 22:37:20:424 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 forward --remove tcp:8200'
+2022-06-17 22:37:20:539 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-06-17 22:37:20:540 [ADB] Running 'C:\Users\baliiaks\android-sdks\platform-tools\adb.exe -P 5037 -s 8936aa69 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-06-17 22:37:20:791 [BaseDriver] Event 'quitSessionFinished' logged at 1655485640791 (22:37:20 GMT+0530 (India Standard Time))

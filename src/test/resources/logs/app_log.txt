@@ -1,0 +1,4 @@
+INFO    2022-06-17 22:36:12,133 [main] base.TestBase  - appium server started
+INFO    2022-06-17 22:36:12,218 [main] base.TestBase  - Android_FlipBoard.propertiesProperties file loaded!!!
+INFO    2022-06-17 22:37:20,796 [main] base.TestBase  - Test Case execution completed
+INFO    2022-06-17 22:37:20,861 [main] base.TestBase  - Appium Server Stooped
